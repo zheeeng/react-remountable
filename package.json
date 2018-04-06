@@ -1,0 +1,20 @@
+{
+  "name": "react-remountable",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "repository": "https://github.com/zheeeng/react-remountable.git",
+  "author": "Zheeeng <hi@zheeeng.me>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.10",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1"
+  }
+}
