@@ -68,7 +68,7 @@ export default class Dashboard extends React.Component {
 If the ESNext decorator syntax is not enabled:
 
 ```js
-export default remountable(Vote)
+export default remountable(Dashboard)
 ```
 
 ## Enjoy it!
