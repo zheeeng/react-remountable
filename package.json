@@ -1,6 +1,13 @@
 {
   "name": "react-remountable",
   "version": "1.0.2",
+  "keywords": [
+    "react",
+    "remountable",
+    "remount",
+    "forcemount",
+    "typescript"
+  ],
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
