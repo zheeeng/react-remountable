@@ -53,7 +53,7 @@ export default class Dashboard extends React.Component {
                 <StatefulForm1 />
                 <StatefulForm2 />
                 <StatefulForm3 />
-                <Input onChange={this.handleWhatsUpChange} ref={this.focusRef} />
+                <input onChange={this.handleWhatsUpChange} ref={this.focusRef} />
                 <button onClick={this.handleReset}>Reset</button>
             </div>
         )
