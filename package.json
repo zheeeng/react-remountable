@@ -15,6 +15,9 @@
   "repository": "https://github.com/zheeeng/react-remountable.git",
   "author": "Zheeeng <hi@zheeeng.me>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "peerDependencies": {
     "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0"
   },
