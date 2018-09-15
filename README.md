@@ -1,5 +1,11 @@
 # react-remountable
 
+[![NPM](https://nodei.co/npm/react-remountable.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-remountable/)
+
+[![language](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](http://typescriptlang.org/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![npm version](https://img.shields.io/npm/v/react-remountable.svg)](https://www.npmjs.com/package/react-remountable)
+
 * provides an API `remount` as prop for re-mounting component
 * resets stateful component to initial state
 * just use it like using the `ReactComponent::forceUpdate` API
