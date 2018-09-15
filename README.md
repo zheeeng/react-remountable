@@ -1,9 +1,17 @@
 # react-remountable
 
-* provides an API `remount` as prop for re-mounting component;
-* resets stateful component to initial state;
-* just use it like using `ReactComponent::forceUpdate`;
-* re-calls phases: `componentWillUnmount` -> `constructor` -> `static getDerivedStateFromProps(v16.3+)` -> `render` -> collect refs ->  `componentDidMount`;
+* provides an API `remount` as prop for re-mounting component
+* resets stateful component to initial state
+* just use it like using the `ReactComponent::forceUpdate` API
+* re-calls phases: `componentWillUnmount` -> `constructor` -> `static getDerivedStateFromProps(v16.3+)` -> `render` -> collect refs ->  `componentDidMount`
+
+## Why
+
+We may need:
+
+* Refresh a component locally
+* Discard the mutated state data
+* Trigger some component life-cycle hooks
 
 ## Installation
 
